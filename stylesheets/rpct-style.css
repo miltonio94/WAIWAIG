@@ -757,3 +757,8 @@ a{
 button.btn.btn-primary.btn-lg{
         background-color: #0077BE;
 }
+
+#timeline-embed{
+        height: 100vh;
+        width: 100%;
+}
