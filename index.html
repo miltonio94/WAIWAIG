@@ -31,6 +31,16 @@
         <script type='text/javascript' src='javascripts/slick.min.js'></script>
         <script type='text/javascript' src='javascripts/main.js'></script>
 
+        <!-- IMPORTING TIMELINE MODULES -->
+        <!-- 1 -->
+        <link title="timeline-styles" rel="stylesheet" href="//cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+
+        <!-- 2 -->
+        <script src="//cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+
+        <!-- 3 -->
+
+
 </head>
 
 <body class="home page page-id-4 page-template page-template-template-homepage page-template-template-homepage-php">
@@ -364,6 +374,12 @@
                         </div><!--/container -->
                 </div><!--grey-->
 
+                <div class="container">
+                        <div id="timeline-embed" >
+
+                        </div>
+                </div>
+
                 <div id="">
                         <div class="container">
                                 <h1>Where I Currently Am</h1>
@@ -593,6 +609,18 @@
                                                                                         <script type='text/javascript' src='javascripts/demo-1.js'></script>
 
                                                                                         <script type='text/javascript' src='javascripts/main.js'></script>
+
+                                                                                        <script type="text/javascript">
+                                                                                        // The TL. constructor takes at least two arguments:
+                                                                                        // the id of the Timeline container (no '#'), and
+                                                                                        // the URL to your JSON data file or Google spreadsheet.
+                                                                                        // the id must refer to an element "above" this code,
+                                                                                        // and the element must have CSS styling to give it width and height
+                                                                                        // optionally, a third argument with configuration options can be passed.
+                                                                                        // See below for more about options.
+                                                                                        timeline = new TL.Timeline('timeline-embed',
+                                                                                        'https://docs.google.com/spreadsheets/d/1ONqXvUHLMhIHKG8zypcR1K_8Kajo2MMhBllr3ZrESFw/pubhtml');
+                                                                                        </script>
 
 
                                                                                 </body>
