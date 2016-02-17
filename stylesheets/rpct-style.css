@@ -762,3 +762,27 @@ button.btn.btn-primary.btn-lg{
         height: 100vh;
         width: 100%;
 }
+
+.leftImg{
+        width: 45%;
+        height:80%;
+        display: block;
+        float: left;
+        margin-top: 5%;
+}
+
+p,ul,dl{
+        font-size: 18px;
+}
+
+.bibli{
+        float: right;
+}
+
+.bibli h5{
+        text-align: right;
+}
+
+.bibli hr{
+        float: right;
+}
